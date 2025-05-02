@@ -26,11 +26,11 @@ AppPublisherURL={#AppURL}
 AppSupportURL={#AppURL}
 AppUpdatesURL={#AppURL}
 
-DefaultDirName="{autopf}\{#AppFolder}"
+DefaultDirName="{autopf}\{#AppFolder}\{#AppVersion}"
 DisableWelcomePage=no
 DisableDirPage=no
 DisableProgramGroupPage=yes
-OutputBaseFilename="{#AppName} {#AppVersion}"
+OutputBaseFilename="ricaun.{#AppName}.{#AppVersion}"
 UninstallDisplayName="{#AppName}"
 
 LicenseFile="..\LICENSE"
