@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Support Revit 2026.
 ### Updates
 - Update `ricaun.Revit.Installation` to `1.4.0`.
+### Build
+- Replace ` ` to `.` in the installation name.
+- Add `ricaun` in the installation name.
 
 ## [1.0.1] / 2024-05-15
 ### Features
