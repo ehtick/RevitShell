@@ -4,11 +4,11 @@
 ; by Luiz Henrique Cassettari 
 
 #define AppId "{75C82D94-C2D8-4F8A-AB17-F98A8BC0E712}"
-#define AppName "RevitShell"
+#define AppName "ricaun.RevitShell"
 #define AppVersion "1.0.0"
 #define AppPublisher "ricaun"
 #define AppComments "Windows Shell Extensions in .NET for Revit files. "
-#define AppFolder "RevitShell"
+#define AppFolder "ricaun.RevitShell"
 #define AppURL "https://github.com/ricaun-io/RevitShell"
 #define AppEmail ""
 
@@ -30,7 +30,7 @@ DefaultDirName="{autopf}\{#AppFolder}\{#AppVersion}"
 DisableWelcomePage=no
 DisableDirPage=no
 DisableProgramGroupPage=yes
-OutputBaseFilename="ricaun.{#AppName}.{#AppVersion}"
+OutputBaseFilename="{#AppName}.{#AppVersion}"
 UninstallDisplayName="{#AppName}"
 
 LicenseFile="..\LICENSE"
