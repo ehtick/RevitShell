@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Update `ricaun.Revit.Installation` to `1.4.0`.
 ### Build
 - Replace ` ` to `.` in the installation name.
-- Update app name to `ricaun.RevitShell`.
+- Update app name to `ricaun.RevitShell` and folder.
 
 ## [1.0.1] / 2024-05-15
 ### Features

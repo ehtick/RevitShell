@@ -8,7 +8,7 @@
 #define AppVersion "1.0.0"
 #define AppPublisher "ricaun"
 #define AppComments "Windows Shell Extensions in .NET for Revit files. "
-#define AppFolder "ricaun.RevitShell"
+#define AppFolder "ricaun\RevitShell"
 #define AppURL "https://github.com/ricaun-io/RevitShell"
 #define AppEmail ""
 
@@ -57,7 +57,7 @@ Name: {app}; Permissions: users-full
 Name: "en"; MessagesFile: "compiler:Default.isl";
 
 [Files]
-Source: "..\{#AppFolder}\bin\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs signonce
+Source: "..\RevitShell\bin\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs signonce
 
 [Run]
 Filename: "{app}\ServerRegistrationManager.exe"; Parameters: "install ""{app}\RevitShell.dll"" -codebase"
